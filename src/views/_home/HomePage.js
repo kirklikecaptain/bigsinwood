@@ -5,7 +5,7 @@ import './style.less';
 const HomePage = () => {
   return (
     <Fragment>
-      <Meta title='Big Sin Wood' />
+      <Meta title='big sin wood' description='handcrafted furniture' />
       <main>
         <div>
           <h1>big sin wood</h1>
