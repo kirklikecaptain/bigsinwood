@@ -1,12 +1,19 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://bigsinwood.netlify.com`
+    siteUrl: `https://www.bigsinwood.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-less',
     'gatsby-plugin-no-sourcemaps',
     'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-segment-js',
+      options: {
+        prodKey: 'mIAEIbsipcIVKolROuKFROdFl2sb1wxN',
+        devKey: 'qY1DawzmqR1Qt9f75qTUyHyBw3hZPA7g'
+      }
+    },
     {
       resolve: 'gatsby-source-contentful',
       options: {
