@@ -5,17 +5,25 @@ import './style.less';
 const HomePage = () => {
   return (
     <Fragment>
-      <Meta title='big sin wood' description='handcrafted furniture' />
+      <Meta title='BIG SIN WOOD' description='Handcrafted Furniture' />
       <main>
-        <div>
-          <h1>big sin wood</h1>
-          <p>- handcrafted furniture -</p>
+        <div className='message'>
+          <p>Welcome to</p>
+          <h1>
+            <span>BIG SIN WOOD</span>
+          </h1>
+          <p>The new web portal is coming soon!</p>
           <p>
-            follow us on{' '}
-            <a href='https://instagram.com/big___sin' target='_blank' rel='noopener noreferrer'>
-              instagram
+            In the meantime... visit us on{' '}
+            <a
+              href='https://www.instagram.com/bigsinwood/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              IG
             </a>
           </p>
+          <p className='tag'>"Yall come back soon now, ya hear"</p>
         </div>
       </main>
     </Fragment>
