@@ -10,6 +10,7 @@ const Meta = ({ title, description }) => {
     <Helmet>
       <title>{title}</title>
       <meta name='description' content={description} />
+      <meta name='google-site-verification' content='IMLrmnyDryrkko7ihyr43HP-meqtnBaIz3B1cW5kU7k' />
     </Helmet>
   );
 };
