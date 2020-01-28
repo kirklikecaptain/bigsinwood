@@ -23,7 +23,7 @@ const HomePage = () => {
               IG
             </a>
           </p>
-          <p className='tag'>"Yall come back soon now, ya hear"</p>
+          <p className='tag'>"Yall come back now, ya hear"</p>
         </div>
       </main>
     </Fragment>
