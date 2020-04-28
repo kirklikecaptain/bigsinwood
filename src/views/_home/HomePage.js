@@ -9,7 +9,7 @@ const HomePage = () => {
       <Meta
         title='BIG SIN WOOD'
         description='Handcrafted Furniture'
-        canonical='https://www.bigsinwood.com'
+        canonical='https://www.bigsinwood.com/'
       />
       <main>
         <div className='message'>
