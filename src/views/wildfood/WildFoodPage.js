@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import Meta from '../../components/Meta';
 import downloadFile from './WILD-FOODS_Guide_BIG-SIN-INDUSTRIES.pdf';
+import image from './wild-foods.jpg';
 import './wild-food.less';
 
 const WildFoodPage = () => {
@@ -10,10 +11,12 @@ const WildFoodPage = () => {
         title='Wild Foods | Big Sin Industries'
         description='Sustainable Wild Food - Hand picked and hand delivered'
         canonical='https://www.bigsinwood.com/wildfood/'
+        ogImage={image}
       />
       <div id='wild-food'>
         <div className='container'>
           <div className='guide'>
+            <img src={image} alt='Wild Foods' />
             Read our guide to storing, cleaning, prepping, and cooking Wild Foods.
             <br />
             <a href={downloadFile} download>
