@@ -22,7 +22,8 @@ const WildFoodPage = () => {
           </div>
           <div className='iframe-wrapper'>
             <iframe
-              src='https://docs.google.com/forms/d/e/1FAIpQLSepo7WeMeCWgNB-ZP5fd4olEtBm7H_Fv_WONinUQKTc5yzQaA/viewform?vc=0&c=0&w=1'
+              title='Order Form'
+              src='https://docs.google.com/forms/d/e/1FAIpQLSepo7WeMeCWgNB-ZP5fd4olEtBm7H_Fv_WONinUQKTc5yzQaA/viewform?embedded=true'
               frameBorder='0'
             />
           </div>
