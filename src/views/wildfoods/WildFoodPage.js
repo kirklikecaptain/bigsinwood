@@ -30,6 +30,14 @@ const WildFoodPage = () => {
               frameBorder='0'
             />
           </div>
+          <div className='guide'>
+            <img src={image} alt='Wild Foods' />
+            Read our guide to storing, cleaning, prepping, and cooking Wild Foods.
+            <br />
+            <a href={downloadFile} download>
+              Download the PDF
+            </a>
+          </div>
         </div>
       </div>
     </Fragment>
