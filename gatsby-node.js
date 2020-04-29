@@ -7,8 +7,13 @@ exports.createPages = async ({ actions }) => {
   });
 
   createPage({
+    path: '/wildfoods/',
+    component: require.resolve('./src/views/wildfoods/WildFoodPage.js')
+  });
+
+  createPage({
     path: '/wildfood/',
-    component: require.resolve('./src/views/wildfood/WildFoodPage.js')
+    component: require.resolve('./src/views/wildfoods/WildFoodPage.js')
   });
 
   createPage({
