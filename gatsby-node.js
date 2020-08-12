@@ -1,23 +1,18 @@
-exports.createPages = async ({ actions }) => {
+exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
 
   createPage({
     path: '/',
-    component: require.resolve('./src/views/_home/HomePage.js')
+    component: require.resolve('./src/views/index/index.jsx')
   });
 
   createPage({
-    path: '/wildfoods/',
-    component: require.resolve('./src/views/wildfoods/WildFoodPage.js')
-  });
-
-  createPage({
-    path: '/wildfood/',
-    component: require.resolve('./src/views/wildfoods/WildFoodPage.js')
+    path: '/contact/',
+    component: require.resolve('./src/views/contact/index.jsx')
   });
 
   createPage({
     path: '/404/',
-    component: require.resolve('./src/views/404/PageNotFound.js')
+    component: require.resolve('./src/views/404/index.jsx')
   });
 };
