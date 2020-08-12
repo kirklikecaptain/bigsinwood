@@ -45,6 +45,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   p {
+    max-width: 65ch;
     line-height: 1.5;
   }
 
